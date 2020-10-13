@@ -40,13 +40,49 @@
     border-style: groove none groove none;
     border-width: 0.1px;
 }
+.enteremail {
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 0.1px;
+    padding-left: 6px;
+    padding-right: 250px;
+    background-color: lightgrey;
+    display: inline-block;
+}
+.signupnow {
+    border-style: none;
+    border-radius: 4px;
+    border-width: 0.1px;
+    padding: 6px 10px;
+    background-color: rgb(248, 4, 4);
+    color: rgb(231, 231, 231)
+    text-align: center;
+    display: inline-block;
+}
 .backgroundimage {
     background-image: url("Image 14.jpg")
 }
 .beforefooter {
     border-style: groove none none none;
     border-width: 0.1px;
-h1{
+}
+.mainheader {
+    align-content: center;
+    width: 80%;
+}
+}
+ul.nobullet {
+    list-style-type: none;
+}
+}
+.bigf {
+    font-size: 10px;
+}
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
@@ -65,7 +101,6 @@ h1{
     margin: 40px 50px 30px 120px;
 }
 ol, p, ul {
-    font-family: sans-serif;
     margin-top: 28px;
     margin-bottom: 28px;
     line-height: 28px;
@@ -81,5 +116,6 @@ p {
 body {
     width: 100%;
     color: rgba(0,0,0,.95);
+    font-family: "Georgia, Times, serif";
 }
 
