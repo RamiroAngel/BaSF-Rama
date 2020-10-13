@@ -1,7 +1,51 @@
-.header{
+#header{
     border-style: none none groove none;
     border-width: 0.1px;
 }
+#footer{
+    border-style: groove none none none;
+    border-width: 0.1px;
+    text-align: center;
+    font-size: small; 
+}
+.paperplane {
+    border-style: groove none groove none;
+    border-width: 0.1px;
+}
+.relatedstories1 {
+    border-style: groove none none none;
+    border-width: 0.1px;
+}
+.relatedstories2 {
+    border-style: groove none none none;
+    border-width: 0.1px;
+}
+.relatedstories3 {
+    border-style: groove none none none;
+    border-width: 0.1px;
+}
+.relatedstories4 {
+    border-style: groove none groove none;
+    border-width: 0.1px;
+}
+.publicity {
+    border-style: groove none groove none;
+    border-width: 0.1px;
+}
+.noimagearticle {
+    border-style: none none groove none;
+    border-width: 0.1px;
+}
+.subscriptionpromotion {
+    border-style: groove none groove none;
+    border-width: 0.1px;
+}
+.backgroundimage {
+    background-image: url("Image 14.jpg")
+}
+.beforefooter {
+    border-style: groove none none none;
+    border-width: 0.1px;
 h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,6 +61,8 @@ h1{
 
     display: block;
 }
+.mainpic {
+    margin: 40px 50px 30px 120px;
 }
 ol, p, ul {
     font-family: sans-serif;
@@ -36,3 +82,4 @@ body {
     width: 100%;
     color: rgba(0,0,0,.95);
 }
+
